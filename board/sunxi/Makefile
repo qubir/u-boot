@@ -41,6 +41,7 @@ obj-$(CONFIG_COBY_MID8042)	+= dram_sun4i_360_1024_iow16.o
 obj-$(CONFIG_COBY_MID9742)	+= dram_sun4i_408_1024_iow16.o
 obj-$(CONFIG_MARSBOARD_A10)	+= dram_sun4i_360_1024_iow16.o
 obj-$(CONFIG_MARSBOARD_A20)	+= dram_sun4i_360_1024_iow16.o
+obj-$(CONFIG_PHOENIXA20)	+= dram_phoenixa20.o
 obj-$(CONFIG_CUBIEBOARD)	+= dram_cubieboard.o
 obj-$(CONFIG_CUBIEBOARD_512)	+= dram_cubieboard_512.o
 obj-$(CONFIG_CUBIEBOARD2)	+= dram_cubieboard2.o
